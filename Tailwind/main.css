@@ -18,7 +18,7 @@ html{
 }
 
 .car_section{
-    @apply w-full h-screen;
+    @apply w-full h-screen relative;
 }
 
 .car_img{
@@ -42,7 +42,7 @@ html{
 }
 
 .car_buttons{
-    @apply absolute top-[85%] left-[50%];
+    @apply absolute top-[85%] left-[50%] flex flex-col md:flex-row;
 }
 
 .btn{
@@ -50,7 +50,7 @@ html{
 }
 
 .inventory{
-    @apply text-[#393c41] bg-white bg-opacity-60 ml-8
+    @apply text-[#393c41] bg-white bg-opacity-60 md:ml-8
 }
 
 .down_svg{
