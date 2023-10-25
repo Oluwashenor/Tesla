@@ -492,6 +492,9 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.flex{
+  display: flex;
+}
 .hidden{
   display: none;
 }
@@ -500,6 +503,9 @@ video {
 }
 .cursor-pointer{
   cursor: pointer;
+}
+.flex-row{
+  flex-direction: row;
 }
 .underline{
   text-decoration-line: underline;
@@ -677,5 +683,13 @@ html{
 
   .lg\:block{
     display: block;
+  }
+
+  .lg\:flex{
+    display: flex;
+  }
+
+  .lg\:grid{
+    display: grid;
   }
 }
